@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
       port: 3000,
       host: true
     },
-    base: '/stackfree/',
+    base: '/',
     plugins: [tailwindcss(), react(), ssl()],
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
